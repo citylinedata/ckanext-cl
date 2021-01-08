@@ -16,7 +16,7 @@
 
   {% block home_image %}
     <section class="featured media-overlay hidden-xs">
-      <h2 class="media-heading">{% block home_image_caption %}{{ _("") }}{% endblock %}</h2>
+      <h2 class="media-heading">{% block home_image_caption %}{{ _("data.cityline.com") }}{% endblock %}</h2>
       {% block home_image_content %}
         <a class="media-image" href="#">
           <img class="img-responsive" src="{{ h.url_for_static('/base/images/data.png') }}" alt="CL Opendata image" height="1000" />
